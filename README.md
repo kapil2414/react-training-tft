@@ -2,14 +2,14 @@
 This repository contains code for a training program covering all the modules mentioned.
 
 ## Directories
-1. crud-backend
+1. `crud-backend`
 This directory contains the backend APIs for CRUD (Create, Read, Update, Delete) operations. It also includes APIs for Payment Gateway Integration.
 
-2. crud-frontend
-The crud-frontend directory houses the frontend application for CRUD operations. It features multilingual support, push notifications, payment gateway integration, and social login functionality.
+2. `crud-frontend` 
+This directory houses the frontend application for CRUD operations. It features multilingual support, push notifications, payment gateway integration, and social login functionality.
 
-3. react-tft
-In the react-tft directory, you'll find additional modules covered in the training program.
+3. `react-tft`
+In this directory, you'll find additional modules covered in the training program.
 
 ## How to Run
 
@@ -33,4 +33,4 @@ npm i
 ```
 3. Start Project
 ```bash
-npm run dev
+npm start

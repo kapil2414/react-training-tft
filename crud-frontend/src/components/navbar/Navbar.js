@@ -65,6 +65,7 @@ const Navbar = () => {
                     <>
                         <Button component={Link} to="/about" color="inherit">{t('about')}</Button>
                         <Button component={Link} to="/employee" color="inherit">{t('employeeSection')}</Button>
+                        <Button component={Link} to="/payment" color="inherit">{t('payment')}</Button>
                         <Button color="inherit" onClick={handleLogout}>{t('logout')}</Button>
                     </>
                 )}

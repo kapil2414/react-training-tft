@@ -14,6 +14,7 @@ i18n.use(initReactI18next).init({
         logIntoSeeProfile: "Login to see profile",
         about: "About",
         employeeSection: "Employee Section",
+        payment: "Payment"
       },
     },
     he: {
@@ -27,6 +28,7 @@ i18n.use(initReactI18next).init({
         logIntoSeeProfile: `प्रोफ़ाइल देखने के लिए लॉगिन करें`,
         employeeSection: "कर्मचारी खंड",
         about: "के बारे में",
+        payment: "भुगतान करें"
       },
     },
   },
