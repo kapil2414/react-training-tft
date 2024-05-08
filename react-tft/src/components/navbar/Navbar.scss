@@ -1,0 +1,28 @@
+/* Navbar.scss */
+
+.navbar {
+    background-color: #333; // Background color
+    padding: 10px 20px; // Padding around the navbar
+    
+    .nav-list {
+      list-style-type: none; // Remove bullet points from list
+      margin: 0; // Remove default margin
+      padding: 0; // Remove default padding
+      
+      .nav-item {
+        display: inline-block; // Display list items horizontally
+        margin-right: 20px; // Add spacing between list items
+        
+        .nav-link {
+          text-decoration: none; // Remove underline from links
+          color: #fff; // Text color
+          font-size: 18px; // Font size
+          
+          &:hover {
+            color: #ffd700; // Change text color on hover
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,10 @@
+@import './_variables';
+@import './mixins';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $bg-color;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+}

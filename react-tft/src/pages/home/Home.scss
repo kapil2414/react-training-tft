@@ -1,0 +1,6 @@
+@import "../../styles/index.scss";
+
+.container {
+  @include center();
+  flex-direction: column;
+}
